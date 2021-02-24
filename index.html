@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de divisas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Conversión de divisas a euros</h1>
+
+    <div id="contenedor">
+        <div>
+            <div id="entrada">
+            CANTIDAD:
+            <input  type="number" id="cantidad" min="0" value="">
+            </div>
+        
+        <div id="conversor"><button id="boton" type="submit">Convertir</button>
+            De
+            <select id="de" > 
+                <option value="0">Euro €</option>
+                <option value="1"> Peseta </option>
+            </select> 
+                
+            a
+            <select id="a" > 
+                <option value="0">Euro €</option>
+                <option value="1"> Peseta </option>
+            </select> 
+        </div>
+
+    
+        <div>
+            
+            <h1 id="resultado">00.00</h1>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

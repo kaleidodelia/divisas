@@ -1,0 +1,59 @@
+#titulo{
+text-align: center;
+background-color: rgba(223, 132, 150, 0.76);
+border-radius: 4px;
+margin: 10px;
+}
+
+#icono{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: chartreuse;
+    margin-bottom: 0;
+    padding: 3px;
+    bottom: 0px;
+ 
+}
+body{
+    background-image: url(fondo.jpg)
+}
+
+
+
+#contenedor{
+    background-color: rgba(95, 165, 160, 0.781);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#entrada{
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#euros{
+    font-weight: bold;
+    background-color: rgb(231, 160, 67);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#pesetas{
+    font-weight: bold;
+    background-color: rgb(60, 212, 218);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#conversor{
+    font-size: 23px;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+padding-bottom: 10px;}
+
